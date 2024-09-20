@@ -1,0 +1,15 @@
+body{
+    height: 100vh;
+    width: 100vw;
+}
+.c-table {
+    display: flex;
+    flex-direction: row;
+}
+
+.c-plate {
+    background-size: cover;
+}
+.salmon {
+    background-image: url(../assets/salmon.png);
+}
