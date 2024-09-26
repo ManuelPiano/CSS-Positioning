@@ -1,15 +1,86 @@
-body{
-    height: 100vh;
-    width: 100vw;
-}
-.c-table {
-    display: flex;
-    flex-direction: row;
-}
+@keyframes drop {
+    0% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(360px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
 
-.c-plate {
-    background-size: cover;
-}
-.salmon {
-    background-image: url(../assets/salmon.png);
-}
+  .lava-lamp {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background: #000;
+    border-radius: 25px;
+    overflow: hidden;
+  }
+  .bubble {
+    position: absolute;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    background: linear-gradient(to bottom, #e64980, #ff8787);
+    border-radius: 50%;
+    left: 180px;
+    animation: drop 5s ease-in-out infinite;
+    color: white;
+    font-size: x-large;
+    font-weight: bolder;
+  }
+  .bubble2 {
+    position: absolute;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    background: linear-gradient(to bottom, #4a08cd, #958ee1);
+    border-radius: 50%;
+    left: 10px;
+    animation: drop 4s ease-in-out infinite;
+    color: white;
+    font-size: x-large;
+    font-weight: bolder;
+  }
+  .bubble1 {
+    position: absolute;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    background: linear-gradient(to bottom, #a1e327, #11bb2b);
+    border-radius: 50%;
+    left: 0px;
+    animation: drop 3s ease-in-out infinite;
+    color: white;
+    font-size: x-large;
+    font-weight: bolder;
+  }
+
+  .bubble3 {
+    position: absolute;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    background: linear-gradient(to bottom, #fbff00, #ebe045);
+    border-radius: 50%;
+    left: 70px;
+    animation: drop 6s ease-in-out infinite;
+    color: white;
+    font-size: x-large;
+    font-weight: bolder;
+  }
+  .bubble4 {
+    position: absolute;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    background: linear-gradient(to bottom, #d58b00, #dab706);
+    border-radius: 50%;
+    right: 80px;
+    animation: drop 4s ease-in-out infinite;
+    color: white;
+    font-size: x-large;
+    font-weight: bolder;
+  }

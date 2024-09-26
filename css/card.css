@@ -1,0 +1,33 @@
+.card {
+    width: 400px;
+    height: 400px;
+    background-color: papayawhip;
+    border-radius: 20px;
+    overflow: hidden;
+
+}
+.card img {
+    width: 100%;
+}
+.card p {
+    text-align: center;
+    font-size: 15px;
+    font-family: monospace;
+    margin: 5px 20px 5px 20px;
+}
+.card p:nth-child(2){
+    color: salmon;
+    background-color: blanchedalmond;
+}
+.card p:nth-child(3){
+    color: salmon;
+    background-color: blanchedalmond;
+}
+.card p:nth-child(4){
+    color: rgb(27, 92, 59);
+    background-color: gainsboro;
+}
+.card a {
+    color: blueviolet;
+    margin: 40px;
+}
